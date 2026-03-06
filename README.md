@@ -18,7 +18,7 @@
     - [Project 1 : Multiclass Classification of Breast Cancer using Ultrasound Images](#project-1--Multiclass-Classification-of-Breast-Cancer-from-Ultrasound-Images)
     - [Project 2 : Maternal Health Risk Assessment in Personalized Patient Care](#project-2--Maternal-Health-Risk-Assessment-in-Personalized-Patient-Care)
     - [Project 3 : Early Detection of Coronary Heart Disease](#project-3--Early-Detection-of-Coronary-Heart-Disease)
-    - [Project 4 : Medical Image Visualization and Analysis](#project-4--medical-image-visualization-and-analysis)
+    - [Project 4 : Cervical Cancer Diagnosis Based on Machine Learning Techniques](#project-4--Cervical-Cancer-Diagnosis-Based-on-Machine-Learning-Techniques)
     - [Project 5 : Patient Health Statistical Analysis](#project-5--patient-health-statistical-analysis)
     - [Project 6 : Impact of Soil Quality on Crop Growth Analysis](#project-6--impact-of-soil-quality-on-crop-growth-analysis)
     - [Project 7 : Plant Disease Analysis Using Leaf Image Data](#project-7--plant-disease-analysis-using-leaf-image-data)
