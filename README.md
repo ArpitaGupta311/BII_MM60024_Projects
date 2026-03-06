@@ -167,34 +167,17 @@ The deadline for the final project submission is _th April 2026, 23:59 IST**.
 
 ### Project 3 : ISBI 2022 Accepted Submissions Analysis
 
-1. The project aims to analyse the accepted submissions of ISBI 2022. The dataset is located in the `data/isbi2022/` directory. 
-2. The dataset comprised of multiple `json` files. `JSON` stands for `J`avaScript `O`bject `N`otation. It is a lightweight data-interchange format. It is easy for humans to read and write. 
-3. Each json file contain the information about multiple papers(about 100 papers in each). The information about the paper is stored in the form of key-value pairs. `JSON` is all about key-value pairs (aka `dictionaries` in Python).
-4. Each paper contains more than 20 attributes, but the most useful attributes are listed as follows : 
-   - `articleTitle` : Title of the paper
-   - `authors` : List of authors of the paper
-   - `citationCount` : Number of citations of the paper
-   - `downloadCount` : Number of downloads of the paper
-   -  `startPage` : Starting page of the paper
-   -  `endPage` : Ending page of the paper
-   -  `abstract` : Stripped abstract of the paper
-5. The project can be divided into sub-areas as follows : 
-   - `Data Preprocessing`
-        1. Write functions to read to multiple json files and concatenate them into a single dataframe.
-        2. Also only keep the useful attributes mentioned above and drop the rest.
-   - `Data Analysis`
-        1. In this part you can prepare a set of questions at least 15 and answer them using the dataset.
-        2. Some examples questions to get you started:
-            * On which `area` of ISBI 2022, the most number of papers were submitted?
-            * Which are the `top 10` downloaded papers and what are they about?
-            * Which are the `top 10` cited papers and what are they about?
-            * What are the `mean` and `median` number of `authors` per paper?
-            * Most common words in the abstracts of the papers? Form a `word cloud`.
-            * What is the `average` number of `pages` per paper?
-            * And so on... Get creative and come up with your own questions.
-   - `Data Visualization`
-        1. In this part you can make use of the `matplotlib` and `seaborn` libraries to visualize the answers to the questions you asked in the previous part.
-        2. Everyone likes to see the results in the form of `graphs` and `charts`. So, make sure you visualize the answers to the questions you asked in the previous part.
+1. Data Loading and Initial Exploration: The dataset is located in the `data/crop_production/` directory. Load the Excel file containing the maternal health dataset and conduct an initial exploration to understand its structure and contents.
+2. Understand the dataset structure, data types, and basic statistics for each feature.
+3. A brief summary report with initial findings on data types, any missing values, and basic statistical measures (mean, median, etc.) for each feature.
+4. The dataset may include clinical features such as:- Age, Systolic Blood Pressure as SystolicBP, Diastolic BP as DiastolicBP, Blood Sugar as BS, Body Temperature as BodyTemp, HeartRate and RiskLevel. All these are the responsible and significant risk factors for maternal mortality, that is one of the main concern of SDG of UN.
+5. The project is divided into following parts:-
+   - `Data Preprocessing and Cleaning`: A pre-processed dataset with no missing values or inconsistencies, ready for further analysis.
+   - `Data Analysis` is including visualization (e.g., histograms, scatter plots, box plots) and calculating correlations between features.
+   - `Classification Task`: Predicting Maternal Health Risk Level: Learn classification algorithms such as logistic regression, decision trees, random forests, or support vector machines, and evaluate model performance.
+   - Build a classification model to predict the risk level (low, medium, or high) based on the health features provided.
+6. Model Tuning and Optimization : Optimize the classification model by tuning hyperparameters and using techniques such as cross-validation.
+7. For report writing, compile the analysis, and results.
    
 
 ### Project 4 : Medical Image Visualization and Analysis
