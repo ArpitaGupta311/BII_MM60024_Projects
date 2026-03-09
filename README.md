@@ -162,7 +162,7 @@ The deadline for the final project submission is _th April 2026, 23:59 IST**.
 ### Project 6 : Pneumonia Detection Using Chest X-ray Imaging
 
 1. Pneumonia is a serious lung infection that can cause inflammation in the air sacs of the lungs and may become life-threatening if not detected early. The objective of this project is to develop a deep learning-based system to automatically detect pneumonia from chest X-ray images.
-2. The project uses the Chest X-Ray Pneumonia Dataset, available at `data/Chest X-ray`, which contains labeled chest radiography images for pneumonia diagnosis.
+2. The project uses the Chest X-Ray Pneumonia Dataset, available at `data/Chest X-ray data`, which contains labeled chest radiography images for pneumonia diagnosis.
 3. The dataset consists of approximately 5,800 chest X-ray images, divided into two classes: Normal and Pneumonia. The images are organized into training, validation, and test sets, allowing proper training and evaluation of machine learning models.
 4. Image preprocessing techniques such as `resizing`, `normalization`, and `data augmentation` will be applied to improve model performance and reduce overfitting.
 5. A Convolutional Neural Network (`CNN`) will be used to automatically extract features from chest X-ray images. The trained model will classify the input X-ray image into pneumonia-infected or normal lung condition.
