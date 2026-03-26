@@ -23,7 +23,7 @@
     - [Project 6 : Pneumonia Detection Using Chest X-ray Imaging](#project-6--Pneumonia-Detection-Using-Chest-X-ray-Imaging)
     - [Project 7 : Automatic Tumor Segmentation from Breast Ultrasound Images](#project-7--Automatic-Tumor-Segmentation-from-Breast-Ultrasound-Images)
     - [Project 8 : Explainable Survival Prediction of Liver Cirrhosis Patients](#Project-8--Explainable-Survival-Prediction-of-Liver-Cirrhosis-Patients)
-    - [Project 9 : Multiorgan Segmentation Using the AbdomenAtlas 1.0 Mini Dataset](#Project-9--Multiorgan-Segmentation-Using-the-AbdomenAtlas-1.0-Mini-Dataset)
+    - [Project 9 : Multiorgan Segmentation Using the AbdomenAtlas 1.0 Mini Dataset](#Project-9--Multiorgan-Segmentation-Using-the-AbdomenAtlas-1-0-Mini-Dataset)
     - [Project 10 : Automatic Skin Lesion Segmentation from Dermoscopic Images](#Project-10--Automatic-Skin-Lesion-Segmentation-from-Dermoscopic-Images)
     - [Project 11 : Multimodal Image Fusion of MRI and SPECT Brain Images](#Project-11--Multimodal-Image-Fusion-of-MRI-and-SPECT-Brain-Images)
   - [Resources](#resources)
@@ -97,7 +97,7 @@ The deadline for the final project submission is _th April 2026, 23:59 IST**.
 |  | [Project 6 : Pneumonia Detection Using Chest X-ray Imaging](#project-6--Pneumonia-Detection-Using-Chest-X-ray-Imaging) | _ |
 |  | [Project 7 : Automatic Tumor Segmentation from Breast Ultrasound Images](#project-7--Automatic-Tumor-Segmentation-from-Breast-Ultrasound-Images) | _ |
 |  | [Project 8 : Explainable Survival Prediction of Liver Cirrhosis Patients](#Project-8--Explainable-Survival-Prediction-of-Liver-Cirrhosis-Patients) | _ |
-|  | [Project 9 : Multiorgan Segmentation Using the AbdomenAtlas 1.0 Mini Dataset](#Project-9--Multiorgan-Segmentation-Using-the-AbdomenAtlas-1.0-Mini-Dataset) | _ |
+|  | [Project 9 : Multiorgan Segmentation Using the AbdomenAtlas 1.0 Mini Dataset](#Project-9--Multiorgan-Segmentation-Using-the-AbdomenAtlas-1-0-Mini-Dataset) | _ |
 |  | [Project 10 : Automatic Skin Lesion Segmentation from Dermoscopic Images](#Project-10--Automatic-Skin-Lesion-Segmentation-from-Dermoscopic-Images) | _ |
 |  | [Project 11 : Multimodal Image Fusion of MRI and SPECT Brain Images](#Project-11--Multimodal-Image-Fusion-of-MRI-and-SPECT-Brain-Images) | _ |
 
@@ -203,7 +203,7 @@ The deadline for the final project submission is _th April 2026, 23:59 IST**.
 ### Project 9 : Multiorgan Segmentation Using the AbdomenAtlas 1.0 Mini Dataset
 
 1. The objective of this project is to develop a deep learning model for segmenting abdominal organs from CT images to assist medical image analysis and clinical diagnosis.
-2. The project uses the `AbdomenAtlas1.0Mini` dataset available on [Hugging Face](#https://huggingface.co/datasets/AbdomenAtlas/AbdomenAtlas1.0Mini), which contains a large collection of annotated abdominal CT scans.
+2. The project uses the `AbdomenAtlas1.0Mini` dataset available on [Hugging Face](https://huggingface.co/datasets/AbdomenAtlas/AbdomenAtlas1.0Mini), which contains a large collection of annotated abdominal CT scans.
 3. The dataset includes about 5,195 annotated 3D CT volumes, making it one of the largest publicly available datasets for abdominal organ segmentation.
 4. Each CT scan contains expert-annotated masks for several abdominal organs such as `liver`, `spleen`, `kidneys`, `stomach`, `pancreas`, `gallbladder`, `aorta`, and `inferior vena cava (IVC)`.
 5. Preprocessing steps such as CT slice `normalization` and `resizing` will be applied to improve model generalization and training efficiency.
